@@ -1,0 +1,246 @@
+/* CSS ejemplo web - RECURINFOR (v1) - {Abrirllave.com - by @CarlosPes */
+/* reset */
+a,article,aside,body,caption,code,div,figcaption,figure,footer,
+h1,h2,h3,h4,h5,header,html,img,li,main,nav,p,pre,table,td,th,thead,tr,ul {
+border:0;
+margin:0;
+padding:0;
+}
+article,aside,code,figcaption,figure,footer,header,hgroup,nav,section {
+display: block;
+}
+/* body */
+body {
+color:#000;
+font:100% Verdana, Arial, sans-serif;
+margin:0 auto;
+padding-bottom:1em;
+width:960px;
+}
+body > nav {
+float:left;
+height:auto;
+width:180px;
+}
+body > main {
+float:left;
+height:auto;
+width:620px;
+}
+body > aside {
+float:left;
+height:auto;
+padding-top:1em;
+text-align:right;
+width:160px;
+}
+/* header */
+body > header {
+background-color:#669;
+}
+body > header > a > img {
+float:left;
+padding-left:.4em;
+padding-top:.1em;
+}
+body > header > a:link, a:visited, a:hover, a:active {
+text-decoration:none;
+}
+body > header > a > h4 {
+float:left;
+background-color:#669;
+color:#fff;
+font-family:calibri,arial,helvetica;
+font-size:2em;
+line-height:1.8em;
+padding-top: .1em;
+}
+body > header > nav {
+clear:both;
+background-color:#dfdfea;
+width:100%;
+}
+body > header > nav > h4 {
+background-color:#669;
+color:#f0f0ff;
+font-family:courier,"lucida console",verdana;
+font-size:1em;
+line-height:1.4em;
+padding-left:.75em;
+}
+body > header > nav > ul {
+padding-left:.35em;
+}
+body > header > nav > ul > li {
+display:inline;
+line-height:1.6em;
+list-style-type:none;
+}
+body > header > nav a:link, body > header > nav a:visited {
+color:#333;
+font-size:.8em;
+padding-left:.5em;
+text-decoration:none;
+}
+body > header > nav a:hover, body > header > nav a:active {
+color:#f00;
+font-size:.8em;
+padding-left:.5em;
+text-decoration:underline;
+}
+/* nav */
+body > nav {
+clear:both;
+margin-bottom:.5em;
+}
+body > nav > h3 {
+font-size:1.05em;
+color:#669;
+text-align:left;
+padding-left:.6em;
+padding-right:.9em;
+padding-top:.5em;
+}
+body > nav > ul > li {
+margin-left:1.9em;
+padding-top:.3em;
+}
+body > nav a:link, body > nav a:visited {
+color:#666;
+font-size:0.95em;
+text-decoration:none;
+}
+body > nav a:hover, body > nav a:active {
+color:#000;
+font-size:0.95em;
+text-decoration:underline;
+}
+/* main */
+main > ul {
+border-bottom:.1em solid #ccc;
+color:#999;
+font-size:.95em;
+margin-left:.8em;
+margin-right:1em;
+padding-bottom:.7em;
+padding-top:.6em;
+}
+main > ul > li {
+display:inline;
+list-style-type:none;
+}
+main > ul a:link, main > ul a:visited {
+color:#666;
+font-size:.95em;
+text-decoration:none;
+}
+main > ul a:hover, main > ul a:active {
+color:#000;
+font-size:.95em;
+text-decoration:underline;
+}
+main article h1 {
+color:#33334d;
+font-size:1.6em;
+padding-bottom:.3em;
+padding-left:.4em;
+margin-right:.8em;
+padding-top:.3em;
+}
+main article h2 {
+color:#444;
+font-size:1.4em;
+font-weight:normal;
+margin-bottom:.6em;
+margin-left:.5em;
+margin-right:.8em;
+margin-top:1em;
+text-decoration: underline;
+}
+main article > p {
+color:#222;
+font-size:.95em;
+line-height:1.5em;
+margin-bottom:1em;
+margin-left:.8em;
+margin-right:.8em;
+}
+main article a:link, main article a:visited {
+color:#f00;
+font-size:.95em;
+text-decoration:none;
+}
+main article a:hover, main article a:active {
+color:#f00;
+font-size:.95em;
+text-decoration:underline;
+}
+main article img {
+margin-left:.8em;
+margin-bottom:1em;
+}
+main > article > ul {
+font-size:.95em;
+margin-left:1.3em;
+margin-right:1em;
+padding-left:.5em;
+margin-bottom: 1em;
+}
+body > main > article > ul > li {
+margin-left:.6em;
+margin-bottom:.6em;
+}
+body > main > article > ul > li > p {
+line-height:1.5em;
+}
+main > article + ul {
+border-bottom:0em;
+border-top:.1em solid #ccc;
+text-align:center;
+}
+/* aside */
+h5 {
+color:#666;
+font-size:.5em;
+text-align:center;
+font-weight:normal;
+text-transform: uppercase;
+}
+/* footer */
+body > footer {
+clear:both;
+padding-top: 1em;
+}
+body > footer > ul {
+background-color:#dfdfea;
+padding-bottom:.3em;
+padding-top:.2em;
+text-align:center;
+}
+body > footer > ul + ul {
+background-color:#fff;
+padding-top:.7em;
+}
+body > footer > ul > li {
+display:inline;
+list-style-type:none;
+}
+body footer a:link, body footer a:visited {
+color:#777;
+font-size:.8em;
+padding-right:.6em;
+text-decoration:none;
+}
+body footer a:hover, body footer a:active {
+color:#777;
+font-size:.8em;
+padding-right:.6em;
+text-decoration:underline;
+}
+body > footer > p {
+color:#555;
+font-size:.75em;
+line-height:1.5em;
+margin-top:.1em;
+text-align:center;
+}
